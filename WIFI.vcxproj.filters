@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{5d62d610-ecb8-47c4-a6c1-c514bc355fe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User">
+      <UniqueIdentifier>{07e6788a-24e2-454c-b299-2747b91e2cf9}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="User\Device-specific files">
+      <UniqueIdentifier>{57d4ce50-4a1f-4c3d-b2d8-a3fb88dea265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{3f9a8500-b4e9-4b71-a4bf-05fb0338d733}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Libraries\CORE">
+      <UniqueIdentifier>{cde610ca-b8d4-454c-86c7-23f722462d19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\DRIVER">
+      <UniqueIdentifier>{88db2e1b-756a-4dc8-aa56-a161938aae34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\SYSTEM">
+      <UniqueIdentifier>{754dbe38-6aea-4494-ab66-0b64b1278c71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\DRIVER\Inc">
+      <UniqueIdentifier>{97c7e333-8205-4bde-bb55-8a18b301410e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\DRIVER\Src">
+      <UniqueIdentifier>{a2b4cfe7-e3b0-4a7a-95a7-715fd3e8428d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\SYSTEM\Inc">
+      <UniqueIdentifier>{a83ab9dd-8bfe-4783-84ce-551754b7677c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\SYSTEM\Src">
+      <UniqueIdentifier>{1a10eb5f-a1ad-45dd-b346-05d578c5b8d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User\Inc">
+      <UniqueIdentifier>{320fc2ab-74fe-4fd0-9d9d-6709e8368d19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User\Src">
+      <UniqueIdentifier>{06d55835-b6f3-42e0-bbd4-4123bb1ec53a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="stm32.props">
+      <Filter>User\Device-specific files</Filter>
+    </None>
+    <ClCompile Include="$(BSP_ROOT)\STM32F4xxxx\StartupFiles\startup_stm32f429xx.c">
+      <Filter>User\Device-specific files</Filter>
+    </ClCompile>
+    <None Include="WIFI-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="WIFI-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="stm32.xml">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Libraries\CMSIS\core_cm4.h">
+      <Filter>Libraries\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\CMSIS\core_cmFunc.h">
+      <Filter>Libraries\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\CMSIS\core_cmInstr.h">
+      <Filter>Libraries\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\CMSIS\core_cmSimd.h">
+      <Filter>Libraries\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Driver\Inc\misc.h">
+      <Filter>Libraries\DRIVER\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Driver\Inc\stm32f4xx_exti.h">
+      <Filter>Libraries\DRIVER\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Driver\Inc\stm32f4xx_gpio.h">
+      <Filter>Libraries\DRIVER\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Driver\Inc\stm32f4xx_rcc.h">
+      <Filter>Libraries\DRIVER\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Driver\Inc\stm32f4xx_syscfg.h">
+      <Filter>Libraries\DRIVER\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Driver\Inc\stm32f4xx_usart.h">
+      <Filter>Libraries\DRIVER\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\SYSTEM\Inc\stm32f4xx.h">
+      <Filter>Libraries\SYSTEM\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\SYSTEM\Inc\stm32f4xx_conf.h">
+      <Filter>Libraries\SYSTEM\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\SYSTEM\Inc\stm32f4xx_it.h">
+      <Filter>Libraries\SYSTEM\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\SYSTEM\Inc\system_stm32f4xx.h">
+      <Filter>Libraries\SYSTEM\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="usart1.h">
+      <Filter>User\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="led.h">
+      <Filter>User\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="adc.h">
+      <Filter>User\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="usart3.h">
+      <Filter>User\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Driver\Inc\stm32f4xx_adc.h">
+      <Filter>Libraries\DRIVER\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="timer3.h">
+      <Filter>User\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Libraries\Driver\Inc\stm32f4xx_tim.h">
+      <Filter>Libraries\DRIVER\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="systic.h">
+      <Filter>User\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="timer1_pwm.h">
+      <Filter>User\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="timer5_capture.h">
+      <Filter>User\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="key.h">
+      <Filter>User\Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="timer2_capture.h">
+      <Filter>User\Inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Libraries\Driver\Src\misc.c">
+      <Filter>Libraries\DRIVER\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\Driver\Src\stm32f4xx_exti.c">
+      <Filter>Libraries\DRIVER\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\Driver\Src\stm32f4xx_gpio.c">
+      <Filter>Libraries\DRIVER\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\Driver\Src\stm32f4xx_rcc.c">
+      <Filter>Libraries\DRIVER\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\Driver\Src\stm32f4xx_syscfg.c">
+      <Filter>Libraries\DRIVER\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\Driver\Src\stm32f4xx_usart.c">
+      <Filter>Libraries\DRIVER\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\SYSTEM\Src\stm32f4xx_it.c">
+      <Filter>Libraries\SYSTEM\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\SYSTEM\Src\system_stm32f4xx.c">
+      <Filter>Libraries\SYSTEM\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>User\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="usart1.c">
+      <Filter>User\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="led.c">
+      <Filter>User\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="adc.c">
+      <Filter>User\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="usart3.c">
+      <Filter>User\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\Driver\Src\stm32f4xx_adc.c">
+      <Filter>Libraries\DRIVER\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="timer3.c">
+      <Filter>User\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Libraries\Driver\Src\stm32f4xx_tim.c">
+      <Filter>Libraries\DRIVER\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="systic.c">
+      <Filter>User\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="timer1_pwm.c">
+      <Filter>User\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="timer5_capture.c">
+      <Filter>User\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="key.c">
+      <Filter>User\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="timer2_capture.c">
+      <Filter>User\Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
